@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEM challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+    <div class="main">
+        <div class="main-steps">
+            <div class="steps">1</div>
+            <div class="flex-this">
+                <h3>
+                    step 1 <br>
+                    <span>Your info</span>
+                </h3>
+
+            </div>
+
+        </div>
+
+        <div class="main-steps">
+            <div class="steps">2</div>
+            <div class="flex-this">
+                <h3>Step 2 <br>
+                    <span> SELECT PLAN</span>
+                </h3>
+
+
+
+            </div>
+        </div>
+
+        <div class="main-steps">
+            <div class="steps">3</div>
+            <div class="flex-this">
+                <h3>step 3 <br>
+                    <span> ADD-ONS </span>
+                </h3>
+
+
+            </div>
+        </div>
+        <div class="main-steps">
+            <div class="steps">4</div>
+            <div class="flex-this">
+                <h3>step 4 <br>
+                    <span>SUMMARY</span>
+                </h3>
+            </div>
+        </div>
+    </div>
+</main>
+
+    <section>
+        <div class="info-form" id="info-forms">
+            <div class="personal-info">
+                <h1>
+                    Personal info <br>
+                    <span> please provide your name, email adress and phone number</span>
+                </h1>
+            </div>
+
+            <div class="form-div">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="phone-number">Phone Number</label>
+                    <input type="number" name="phone" id="phone-number">
+                </div>
+            </div>
+            <a href="index.html"> <button id="next-step-button">Next step</button></a>
+        </div>
+
+
+        <div class="select-your-plan" id="select-your-plans">
+            <div>
+                <h1 class="heading">Select your plan</h1>
+                <p class="p">You have the option of monthly or yearly billing</p>
+            </div>
+            <div class="plan-icons">
+                <div class="icon-div"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                        viewBox="0 0 40 40">
+                        <g fill="none" fill-rule="evenodd">
+                            <circle cx="20" cy="20" r="20" fill="#FFAF7E" />
+                            <path fill="#FFF" fill-rule="nonzero"
+                                d="M24.995 18.005h-3.998v5.998h-2v-5.998H15a1 1 0 0 0-1 1V29a1 1 0 0 0 1 1h9.995a1 1 0 0 0 1-1v-9.995a1 1 0 0 0-1-1Zm-5.997 8.996h-2v-1.999h2v2Zm2-11.175a2.999 2.999 0 1 0-2 0v2.18h2v-2.18Z" />
+                        </g>
+                    </svg>
+                    <h2>
+                        Arcade
+                    </h2>
+                    <h4>
+                        $9/m
+                    </h4>
+                </div>
+                <div class="icon-div"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                        viewBox="0 0 40 40">
+                        <g fill="none" fill-rule="evenodd">
+                            <circle cx="20" cy="20" r="20" fill="#F9818E" />
+                            <path fill="#FFF" fill-rule="nonzero"
+<!--                                 d="M25.057 15H14.944C12.212 15 10 17.03 10 19.885c0 2.857 2.212 4.936 4.944 4.936h10.113c2.733 0 4.943-2.08 4.943-4.936S27.79 15 25.057 15ZM17.5 20.388c0 .12-.108.237-.234.237h-1.552v1.569c0 .126-.138.217-.259.217H14.5c-.118 0-.213-.086-.213-.203v-1.583h-1.569c-.126 0-.217-.139-.217-.26v-.956c0-.117.086-.213.202-.213h1.584v-1.554c0-.125.082-.231.203-.231h.989c.12 0 .236.108.236.234v1.551h1.555c.125 0 .231.083.231.204v.988Zm5.347.393a.862.862 0 0 1-.869-.855c0-.472.39-.856.869-.856.481 0 .87.384.87.856 0 .471-.389.855-.87.855Zm1.9 1.866a.86.86 0 0 1-.87-.852.86.86 0 0 1 .87-.855c.48 0 .87.38.87.855a.86.86 0 0 1-.87.852Zm0-3.736a.862.862 0 0 1-.87-.854c0-.472.39-.856.87-.856s.87.384.87.856a.862.862 0 0 1-.87.854Zm1.899 1.87a.862.862 0 0 1-.868-.855c0-.472.389-.856.868-.856s.868.384.868.856a.862.862 0 0 1-.868.855Z" />
+                        </g>
+                    </svg>
+                    <h2>
+                        Advanced
+                    </h2>
+                    <h4>
+                        $12/mo
+                    </h4>
+                </div>
+                <div class="icon-div"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                        viewBox="0 0 40 40">
+                        <g fill="none" fill-rule="evenodd">
+                            <circle cx="20" cy="20" r="20" fill="#483EFF" />
+                            <path fill="#FFF" fill-rule="nonzero"
+                                d="M26.666 13H13.334A3.333 3.333 0 0 0 10 16.333v7.193a3.447 3.447 0 0 0 2.14 3.24c1.238.5 2.656.182 3.56-.8L18.52 23h2.96l2.82 2.966a3.2 3.2 0 0 0 3.56.8 3.447 3.447 0 0 0 2.14-3.24v-7.193A3.333 3.333 0 0 0 26.666 13Zm-9.333 6H16v1.333a.667.667 0 0 1-1.333 0V19h-1.333a.667.667 0 0 1 0-1.334h1.333v-1.333a.667.667 0 1 1 1.333 0v1.333h1.333a.667.667 0 1 1 0 1.334Zm7.333 2a2.667 2.667 0 1 1 0-5.333 2.667 2.667 0 0 1 0 5.333ZM26 18.333a1.333 1.333 0 1 1-2.667 0 1.333 1.333 0 0 1 2.667 0Z" />
+                        </g>
+                    </svg>
+                    <h2>
+                        Pro
+                    </h2>
+                    <h4>
+                        $15/mo
+                    </h4>
+                </div>
+            </div>
+            <div>
+
+            </div>
+            <div class="page-navigations">
+                <a href="index2.html"><button class="nav">Go Back </button></a>
+                <a href="index3.html"> <button id="next-step">Next step </button></a>
+            </div>
+        </div>
+
+
+ -->
+        <div class="pick-add-ons" id="pick-adds">
+            <div class="add-ons">
+                <h2>Pick add-ons <br>
+                    <span>Add-ons help enhance your gamming experience</span>
+                </h2>
+            </div>
+            <div class="services">
+                <div class="flex-these">
+
+                    <input type="checkbox" id="online">
+                    <label for="online">online service <br>
+                        <span>Access to multiplayer game</span>
+                    </label>
+                    <div>
+                        +$1/mo
+                    </div>
+                </div>
+                <div class="flex-these">
+                    <input type="checkbox" id="storage">
+                    <label for="storage">Larger storage <br>
+                        <span>Extra 1TB of cloud save</span>
+                    </label>
+                    <div>
+                        +$2/mo
+                    </div>
+                </div>
+                <div class="flex-these">
+                    <input type="checkbox" id="profile">
+                    <label for="profile">Customizable profile <br>
+                        <span>Custom theme on your profile</span>
+                    </label>
+                    <div>
+                        +$2/mo
+                    </div>
+                </div>
+            </div>
+            <div class="flex-these-button">
+                <div>
+                    <a href="index.html"><button class="go-back">Go Back </button></a>
+                </div>
+                <div>
+                    <a href="index.html"><button class="Next-step"> Next Step </button></a>
+                </div>
+            </div>
+
+        </div>
+        <div class="finishing-up" id="finishings">
+            <div class="topper">
+                <h2>Finishing Up <br>
+                    <span> Double check evrything looks OK before confirming</span>
+                </h2>
+            </div>
+            <div class="final-services">
+                <div class="services-margin">
+                    <div>Arcade (Monthly) <br>
+                        <button>change</button>
+                    </div>
+                    <div>
+                        $9/mo
+                    </div>
+                </div>
+                <div class="services">
+                    <div>
+                        online services
+                    </div>
+                    <div>
+                        +$1/mo
+                    </div>
+                </div>
+                <div class="services">
+                    <div>
+                        Larger storage
+                    </div>
+                    <div>
+                        +$2/mo
+                    </div>
+                </div>
+            </div>
+            <div class="totals">
+                <div>Total (per month)</div>
+                <div class="sum-of-total">+$12/mo</div>
+            </div>
+            <div class="buttons">
+                <div> <button id="go-back-button">Go back </button> </div>
+                <div><button id="confirm-button">confirm</button></div>
+            </div>
+        </div>
+
+        <div class="thank-you-parent" id="last-step">
+            <div class="icon-div">
+                <div> <img src="/images/icon-thank-you.svg"></img></div>
+                <div>
+                    <h1>Thank you!</h1>
+                </div>
+            </div>
+            <p>
+                Thanks for confimring your subscription! We hope you have fun using our platform. <br>
+                If if you ever need support, please feel free to email us at support@loremgaming.com
+            </p>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
